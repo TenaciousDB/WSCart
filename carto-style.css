@@ -115,22 +115,22 @@ p.center {
 }
 /* unvisited link */
 a:link {
-  color: slateblue;  /* MH Purple */
+  color: slateblue;
 }
 
 /* visited link */
 a:visited {
-  color: slateblue;  /* MH Purple */
+  color: slateblue;
 }
 
 /* mouse over link */
 a:hover {
-  color: slateblue;  /* MH Purple */
+  color: white;
 }
 
 /* selected link */
 a:active {
-  color: slateblue;  /* MH Purple */
+  color: white;
 }
 #map{
   height: 80%;
