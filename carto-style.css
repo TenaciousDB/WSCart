@@ -115,22 +115,22 @@ p.center {
 }
 /* unvisited link */
 a:link {
-  color: #663399;
+  color: indigo;
 }
 
 /* visited link */
 a:visited {
-  color: #663399;
+  color: indigo;
 }
 
 /* mouse over link */
 a:hover {
-  color: #663399;
+  color: white;
 }
 
 /* selected link */
 a:active {
-  color: #663399;
+  color: indigo;
 }
 #map{
   height: 80%;
@@ -154,11 +154,11 @@ a:active {
 .button1 {
   background-color: gray;
   color: white;
-  border: 2px solid #4CAF50;
+  border: 2px solid #4b0082;
 }
 
 .button1:hover {
-  background-color: #4CAF50;
+  background-color: #4b0082;
   color: white;
 }
 
