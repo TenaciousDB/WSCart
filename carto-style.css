@@ -116,12 +116,12 @@ p.center {
 }
 /* unvisited link */
 a:link {
-  color: springgreen;
+  color: purple;
 }
 
 /* visited link */
 a:visited {
-  color: springgreen;
+  color: purple;
 }
 
 /* mouse over link */
