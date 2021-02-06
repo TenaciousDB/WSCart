@@ -34,7 +34,7 @@ table {
   height: 80px;
   margin: 0 auto;
   padding: 12px;
-  filter: grayscale(1) brightness(2);
+/*  filter: grayscale(1) brightness(2); */
 }
 .bannerHeading {
   text-transform: uppercase;
