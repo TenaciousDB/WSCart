@@ -34,7 +34,6 @@ table {
   height: 80px;
   margin: 0 auto;
   padding: 12px;
-  filter: brightness(2);
 }
 .bannerHeading {
   text-transform: uppercase;
@@ -116,22 +115,22 @@ p.center {
 }
 /* unvisited link */
 a:link {
-  color: #6a5acd;
+  color: slateblue;  /* MH Purple */
 }
 
 /* visited link */
 a:visited {
-  color: #6a5acd;
+  color: slateblue;  /* MH Purple */
 }
 
 /* mouse over link */
 a:hover {
-  color: #6a5acd;
+  color: slateblue;  /* MH Purple */
 }
 
 /* selected link */
 a:active {
-  color: #6a5acd;
+  color: slateblue;  /* MH Purple */
 }
 #map{
   height: 80%;
