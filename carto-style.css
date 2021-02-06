@@ -125,12 +125,12 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-  color: white;
+  color: slateblue;
 }
 
 /* selected link */
 a:active {
-  color: white;
+  color: slateblue;
 }
 #map{
   height: 80%;
