@@ -6,7 +6,7 @@ html, body {
   height: 100%;
   //width: 100vw;
   background-color: #1a1a1a;
-  color: white;
+  color: #c0c0c0;
 }
 
 body {
@@ -34,7 +34,6 @@ table {
   height: 80px;
   margin: 0 auto;
   padding: 12px;
-  filter: grayscale(1) brightness(2);
 }
 .bannerHeading {
   text-transform: uppercase;
@@ -139,7 +138,7 @@ a:active {
 
 
 .button {
-  background-color: #4CAF50; /* Green */
+  background-color: #663399;
   border: none;
   color: gray;
   padding: 8px 16px;
