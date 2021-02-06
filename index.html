@@ -1,10 +1,11 @@
 <!--
-White Star Cartographer Tool for United Industries of Hades (UIH)
+White Star Cartographer Tool for Hades' Star
 
-United Industries of Hades hereby disclaims all copyright interest in the program “White Star Cartographer”
+TenaciousDB hereby disclaims all copyright interest in the program “White Star Cartographer”
 Created by Concedo,
 Updated by Elder Things Corp
 Updated by United Industries of Hades (UIH)
+Updated by TenaciousDB
 Powered by Leaflet js
 
 This program is free software: you can redistribute it and/or modify
@@ -19,16 +20,13 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
-Measurement accuracy may depend on performing proper calibration.
-UIH takes no responsibility for the loss of your miners, transports or battleships as a result of the use of this tool.
 -->
 
 <!DOCTYPE html>
 <html>
 <head>
 
-	<title>White Star Cartographer</title>
+	<title>White Star Cartographer - Madison Holding</title>
 
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
@@ -48,26 +46,17 @@ UIH takes no responsibility for the loss of your miners, transports or battleshi
 	<!-- Custom stylesheet for WS Cartographer -->
 	<link rel="stylesheet" href="carto-style.css">
 
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-171103539-1"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-
-	  gtag('config', 'UA-171103539-1');
-	</script>
-
 </head>
 <body onload="bodyOnLoad()">
 	<div id='banner'>
-		<img id='logo' src="images/logos/UIH_Megacorp.svg" alt="UIH Megacorp Logo">
-		<p class='bannerHeading'>United Industries of Hades</p>
+		<img id='logo' src="images/logos/UIH_Megacorp.svg" alt="MH Logo">
+		<p class='bannerHeading'>Madison Holding</p>
 	</div>
 
 	<div id='instructions'>
 		<p id='info'></p>
-		<button id='uploadbtn' class="button button1">Select White Star Screenshot or Ctrl-V to paste</button>
+		<button id='uploadbtn' class="button button1">Upload File or Paste [CTRL-V or CMD-V]</button>
+		<p class='header'>Select Image File -or- Paste Using [CTRL-V or CMD-V]</p>
 	</div>
 	<div id='map' style='display: none'>
 		<img id='origimg' style='display:none' src='' />
@@ -164,22 +153,11 @@ UIH takes no responsibility for the loss of your miners, transports or battleshi
 	<hr>
 	<div id='footer'>
 		<p>
-			Measurement accuracy may depend on performing proper calibration.<br>
-			UIH takes no responsibility for the loss of your miners, transports or battleships as a result of the use of this tool.<br>
-			<br>
-			Report bugs, submit feature requests, and make suggestions on
-			<a href="https://github.com/UIH-Corp/UIH-Corp.github.io/issues" target="_blank">the github repository</a>.<br>
-			Please send a message if you would like to contribute and help make this tool better.<br>
+			After uploading the imagine, the first two clicks you do must be to one corner of any sector,<br>
+			followed by the opposite corner of that same sector. This calibrates the distance measurements.<br>
+			You only one chance, so if you wish to re-calibrate, reload the page and re-upload the image.<br>
 		</p>
-		<p>
-			Come visit us at <a href="https://discord.com/invite/7d5zzxC" target="_blank">United Industries of Hades</a>.<br>
-			We're an active multinational Mega Corp of experienced players who are friendly and organized.
-			If you've got questions or need help, we're here for you!<br>
-			5 CORPS ACT AS ONE, ranging from RS4 to RS10.
-			We place members with others of similar interests and RS levels to help them learn and grow more quickly alongside their comrades!<br>
-		</p>
-		<p><a href="license_gpl-3.0.txt" target="_blank">Copyright Notice</a></p>
-		<img id='logo' src="images/logos/UIH_Megacorp.svg" alt="UIH Megacorp Logo">
+		<p><Licensed under <a href="license_gpl-3.0.txt" target="_blank">GNU General Public License v3</a></p>
 	</div>
 
 	<script>
