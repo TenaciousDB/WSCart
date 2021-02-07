@@ -1,11 +1,11 @@
 <!--
-White Star Cartographer Tool for Hades' Star, team Madison Holding
+White Star Cartographer Tool for Hades' Star team Madison Holding
 
 TenaciousDB hereby disclaims all copyright interest in the program “White Star Cartographer”
 Created by Concedo,
 Updated by Elder Things Corp
 Updated by United Industries of Hades (UIH)
-Updated by TenaciousDB
+Updated by TenaciousDB (Madison Holding)
 Powered by Leaflet js
 
 This program is free software: you can redistribute it and/or modify
@@ -55,7 +55,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 	<div id='instructions'>
 		<p id='info'></p>
-		<button id='uploadbtn' class="button button1">Upload File or Paste [CTRL-V or CMD-V]</button>
+		<button id='uploadbtn' class="button button1">Choose File</button>
 		<p class='header'>Select Image File -or- Paste Using [CTRL-V or CMD-V]</p>
 	</div>
 	<div id='map' style='display: none'>
@@ -65,7 +65,9 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 	<div id='generalCalcs'>
 		<div id='shieldCalcContainer'>
 			<div id='shieldCalcHeading'>
+				<hr width=300>
 				<p class='header'>Shield Duration Calculator</p>
+				<hr width=300>
 			</div>
 			<div id='shieldCalc'>
 				<table>
@@ -99,7 +101,9 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 		</div>
 		<div id='miningCalcContainer'>
 			<div id='miningCalcHeading'>
+				<hr width=300>
 				<p class='header'>Mining Speed Calculator</p>
+				<hr width=300>
 				<table>
 					<tr>
 						<td>Time Warp Level:</td>
@@ -116,6 +120,9 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 					<tr>
 						<td># of Miners:</td>
 						<td><input type="number" id="input-miningAllies" onkeyup="miningAlliesUpdate()" onchange="miningAlliesUpdate()" value=1 min="1" max="12"></td>
+					</tr>
+					<tr>
+						<br>
 					</tr>
 				</table>
 			</div>
@@ -152,10 +159,11 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 	</div>
 	<hr>
 	<div id='footer'>
+		<hr width=300>
 		<p>
-			After uploading the imagine, the first two clicks you do must be to one corner of any sector,<br>
+			After uploading the image, the first two clicks you make must be to one corner of any sector,<br>
 			followed by the opposite corner of that same sector. This calibrates the distance measurements.<br>
-			You only get one chance to calibrate, so reload this site and re-upload the image to re-calibrate.<br>
+			You only get one chance to calibrate, so reload this page and supply a new image to recalibrate.<br>
 		</p>
 		<p>Licensed under <a href="license_gpl-3.0.txt" target="_blank">GNU General Public License v3</a></p>
 	</div>
