@@ -101,7 +101,7 @@ table #miningTable {
 /* Output Box Formatting -------- */
 /* ------------------------------ */
 
-#output-hpmRSMining, #output-hpWSMining, #output-dayMining,   {
+#output-hpmRSMining, #output-hpWSMining, #output-dayMining, #output-hrMining {
   color: #ffffe0;
 }
 
