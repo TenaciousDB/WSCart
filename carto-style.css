@@ -44,9 +44,17 @@ table {
 /* Horizontal Rules ------------- */
 /* ------------------------------ */
 
-#hrule {
+#hRuleWide #hRuleNarrow {
   border-top: 1px solid #6699cc;
   border-width: 2px;
+  width: 600px;
+}
+
+#hRuleNarrow {
+  width: 400px;
+}
+
+#hRuleWide {
   width: 600px;
 }
 
