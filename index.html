@@ -126,15 +126,15 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 			</div>
 				<table>
 					<tr>
-						<td>Time Warp Level:</td>
+						<td align="right">Time Warp:</td>
 						<td><input type="number" id="input-twMining" onkeyup="twMiningUpdate()" onchange="twMiningUpdate()" value=0 min="0" max="12"></td>
 					</tr>
 					<tr>
-						<td>Hydro Amount:</td>
+						<td align="right">Sector Hydro:</td>
 						<td><input type="number" id="input-hAmount" onkeyup="hMiningUpdate()" onchange="hMiningUpdate()" value=0 min="0" max="9999"></td>
 					</tr>
 					<tr>
-						<td># of Asteroids:</td>
+						<td align="right"># of Asteroids:</td>
 						<td><input type="number" id="input-hCount" onkeyup="hCountUpdate()" onchange="hCountUpdate()" value=1 min="1" max="15"></td>
 					</tr>
 					<tr>
@@ -516,7 +516,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 				miningRShpm += twMultiplier[twlvlMining] *                        //TW multiplier
 				minerLevelhpm[hMiningLevel[i]] *                                  //Miner Level
 				miningBoostMultiplier[hMiningBoost[i]] *                          //Mining Boost multiplier
-				(remoteMiningMultipler[hMiningRemote[i]] * hMiningCount * );      //Remote Mining multiplier * asteroid count
+				(remoteMiningMultipler[hMiningRemote[i]] * hMiningCount + 0) *    //Remote Mining multiplier * asteroid count
 				(miningUnityMultiplier[hMiningUnity[i]] * hMiningAllies + 1);     //Mining Unity multiplier * # of miningAllies
 			}
 
