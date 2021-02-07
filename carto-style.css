@@ -41,16 +41,16 @@ table {
 }
 
 /* ------------------------------ */
-/* Instructions on first page --- */
+/* Horizontal Rules ------------- */
 /* ------------------------------ */
 
-#generalHorizontalRule {
+#hrule {
   color: #6699cc;
   width: 400px;
 }
 
 /* ------------------------------ */
-/* Instructions on first page --- */
+/* Instructions on First Page --- */
 /* ------------------------------ */
 
 #instructions {
@@ -59,7 +59,7 @@ table {
 
 
 /* ------------------------------ */
-/* General Calcs on 1st Page ---- */
+/* General Calcs on First Page -- */
 /* ------------------------------ */
 
 #generalCalcs {
