@@ -103,7 +103,7 @@ table #miningTable {
 /* ------------------------------ */
 
 #output-min, #output-sec, #output-hpmRSMining, #output-hpWSMining, #output-dayMining, #output-hrMining {
-  background: #ffffe0;
+  background: #ccccff;
 }
 
 /* ------------------------------ */
@@ -177,11 +177,11 @@ a:active {
 .button1 {
   background-color: gray;
   color: white;
-  border: 2px solid #6699cc;
+  border: 2px solid #89a2bc;
 }
 
 .button1:hover {
-  background-color: #aac6e3;
+  background-color: #89a2bc;
   color: white;
 }
 
@@ -189,7 +189,7 @@ a:active {
   padding: 6px 8px;
   font: 12px Arial, Helvetica, sans-serif;
   background: #ffff66;
-  background: rgba(255,255,255,0.8);
+  background: rgba(255,255,102,0.8);
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   border-radius: 5px;
 }
