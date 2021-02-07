@@ -46,7 +46,8 @@ table {
 
 #hrule {
   border-top: 1px solid #6699cc;
-  border-width: 400px;
+  border-width: 2px;
+  width: 400px;
 }
 
 /* ------------------------------ */
