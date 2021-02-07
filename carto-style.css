@@ -209,6 +209,6 @@ a:active {
 
 .mininginfobox:focus {
     outline: none !important;
-    border-color: #ff0000;
-    box-shadow: 0 0 15px rgba(255,0,0,0.2);
+    border:1px solid crimson;
+    box-shadow: 0 0 10px #dc143c;
 }
