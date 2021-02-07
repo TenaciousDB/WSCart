@@ -40,6 +40,14 @@ table {
   font-weight: bold;
 }
 
+/* ------------------------------ */
+/* Instructions on first page --- */
+/* ------------------------------ */
+
+#generalHorizontalRule {
+  color: #6699cc;
+  width: 400px;
+}
 
 /* ------------------------------ */
 /* Instructions on first page --- */
