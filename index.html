@@ -92,8 +92,10 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 					<tr>
 						<br>
 					</tr>
+				</table>
+				<table>
 					<tr>
-						<td>YS Shield Time:</td>
+						<td>RS Shield Time:</td>
 						<td><input type="text" id="output-min" maxlength="2" value=0 readonly></td>
 						<td>mins</td>
 						<td><input type="text" id="output-sec" maxlength="2" value=0 readonly></td>
@@ -122,7 +124,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 						<td><input type="number" id="input-hCount" onkeyup="hCountUpdate()" onchange="hCountUpdate()" value=1 min="1" max="15"></td>
 					</tr>
 					<tr>
-						<td># of Miners:</td>
+						<td align="right"># of Miners:</td>
 						<td><input type="number" id="input-miningAllies" onkeyup="miningAlliesUpdate()" onchange="miningAlliesUpdate()" value=1 min="1" max="12"></td>
 					</tr>
 					<tr>
@@ -377,7 +379,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 				inputUnityLevel.min = "0";
 				inputUnityLevel.max = "12";
 
-				cell1.innerHTML = "Miner #" + minerIndex + " Specs:";
+				cell1.innerHTML = "<u>Miner #" + minerIndex + " Specs</u>:";
 				cell2.innerHTML = "Level";
 				cell3.appendChild(inputMinerLevel);
 				cell4.innerHTML = "Boost";
