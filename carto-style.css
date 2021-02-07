@@ -209,11 +209,6 @@ a:active {
   border-radius: 5px;
 }
 
-input[type="text"],
-textarea {
-    width:250px;
-}
-
 input:focus {
 	outline: #dc143c solid 2px;
 }
