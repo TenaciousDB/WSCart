@@ -45,7 +45,7 @@ table {
 /* ------------------------------ */
 
 #hrule {
-  color: #6699cc;
+  border-top: 1px solid #6699cc;
   width: 400px;
 }
 
