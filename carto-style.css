@@ -115,22 +115,22 @@ p.center {
 }
 /* unvisited link */
 a:link {
-  color: slateblue;
+  color: #6699cc;
 }
 
 /* visited link */
 a:visited {
-  color: slateblue;
+  color: #6699cc;
 }
 
 /* mouse over link */
 a:hover {
-  color: slateblue;
+  color: #6699cc;
 }
 
 /* selected link */
 a:active {
-  color: slateblue;
+  color: #6699cc;
 }
 #map{
   height: 80%;
@@ -138,7 +138,7 @@ a:active {
 
 
 .button {
-  background-color: #6a5acd;  /* MH Purple */
+  background-color: #6699cc;
   border: none;
   color: gray;
   padding: 8px 16px;
@@ -154,11 +154,11 @@ a:active {
 .button1 {
   background-color: gray;
   color: white;
-  border: 2px solid #6a5acd;  /* MH Purple */
+  border: 2px solid #6699cc;
 }
 
 .button1:hover {
-  background-color: #6a5acd;  /* MH Purple */
+  background-color: #6699cc;
   color: white;
 }
 
