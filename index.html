@@ -90,11 +90,14 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 						<td>hours</td>
 					</tr>
 					<tr>
-						<td>Yellow Star Shield Time:</td>
+						<br>
+					</tr>
+					<tr>
+						<td>YS Shield Time:</td>
 						<td><input type="text" id="output-min" maxlength="2" value=0 readonly></td>
 						<td>mins</td>
 						<td><input type="text" id="output-sec" maxlength="2" value=0 readonly></td>
-						<td>sec</td>
+						<td>seconds</td>
 					</tr>
 				</table>
 			</div>
@@ -135,17 +138,17 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 				Mining Unity: <input type="number" id="input-miningUnity" onkeyup="miningUnityUpdate()" onchange="miningUnityUpdate()" value=0 min="0" max="12" style="width: 2.75em;"/><br>-->
 			</div>
 			<div id='miningCalcFooter'>
-				<p class='header'>Mining Results:</p>
+				<p class='header'>Mining Rates:</p>
 				<table>
 					<tr>
-						<td>Mining RS:</td>
+						<p class='header'>Mining Rates:</p>
+						<td>YS/RS Mining Rate:</td>
 						<td><input type="text" id="output-hpmRSMining" maxlength="6" value=0 readonly></td>
-						<td>h / min</td>
-					</tr>
-					<tr>
-						<td>Mining WS:</td>
+						<td>hydro / min</td>
+						<td><br></td>
+						<td>WS Mining Rate:</td>
 						<td><input type="text" id="output-hpWSMining" maxlength="6" value=0 readonly></td>
-						<td>h / hour</td>
+						<td>hydro / hour</td>
 					</tr>
 					<tr>
 						<td>WS Mining Time:</td>
