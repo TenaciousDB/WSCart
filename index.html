@@ -131,7 +131,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 					</tr>
 					<tr>
 						<td align="right">Sector Hydro:</td>
-						<td><input type="number" id="input-hAmount" onkeyup="hMiningUpdate()" onchange="hMiningUpdate()" value=0 min="0" max="9999"></td>
+						<td><input type="number" id="input-hAmount" onkeyup="hMiningUpdate()" onchange="hMiningUpdate()" value=3000 min="0" max="9999"></td>
 					</tr>
 					<tr>
 						<td align="right"># of Asteroids:</td>
@@ -153,7 +153,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 			<div id='miningCalcFooter'>
 				<table>
 					<tr>
-						<td colspan=2><u>Hydro per Min Rates</u></td>
+						<td colspan=2><u>Hydro per Min</u></td>
 						<td width=40px> </td>
 						<td colspan=2><u>WS Mining Duration</u></td>
 					</tr>
@@ -161,14 +161,14 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 						<td><input type="text" id="output-hpmRSMining" maxlength="6" value=0 readonly></td>
 						<td>RS</td>
 						<td width=40px></td>
-						<td><input type="text" id="output-dayMining" maxlength="6" value=0 readonly></td>
+						<td align="right"><input type="text" id="output-dayMining" maxlength="6" value=0 readonly></td>
 						<td>days</td>
 					</tr>
 					<tr>
 						<td><input type="text" id="output-hpWSMining" maxlength="2" value=0 readonly></td>
 						<td>WS</td>
 						<td width=40px></td>
-						<td><input type="text" id="output-hrMining" maxlength="2" value=0 readonly></td>
+						<td align="right"><input type="text" id="output-hrMining" maxlength="2" value=0 readonly></td>
 						<td>hours</td>
 					</tr>
 				</table>
@@ -389,13 +389,13 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 				inputUnityLevel.max = "12";
 
 				cell1.innerHTML = "<u>Miner #" + minerIndex + ":   ";
-				cell2.innerHTML = "Level";
+				cell2.innerHTML = "  Level";
 				cell3.appendChild(inputMinerLevel);
-				cell4.innerHTML = "Boost";
+				cell4.innerHTML = "  Boost";
 				cell5.appendChild(inputBoostLevel);
-				cell6.innerHTML = "Remote";
+				cell6.innerHTML = "  Remote";
 				cell7.appendChild(inputRemoteLevel);
-				cell8.innerHTML = "Unity";
+				cell8.innerHTML = "  Unity";
 				cell9.appendChild(inputUnityLevel);
 
 			}
@@ -518,8 +518,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 			// 1 min RS = 10 hr WS
 			miningWShph = miningRShpm / 10;
 
-			document.getElementById("output-hpmRSMining").value = miningRShpm.toFixed(2);
-			document.getElementById("output-hpWSMining").value = miningWShph.toFixed(2);
+			document.getElementById("output-hpmRSMining").value = miningRShpm.toFixed(1);
+			document.getElementById("output-hpWSMining").value = miningWShph.toFixed(1);
 
 			var wsMiningTimeTotalHours = hMiningAmount / miningWShph;
 			var wsMiningTimeDays = Math.floor(wsMiningTimeTotalHours/24);
@@ -532,7 +532,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 			}
 
 			document.getElementById("output-dayMining").value = wsMiningTimeDays;
-			document.getElementById("output-hrMining").value = wsMiningTimeHours.toFixed(0);
+			document.getElementById("output-hrMining").value = wsMiningTimeHours.toFixed(1);
 		}
 
 		function showUpload()
