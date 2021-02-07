@@ -64,7 +64,6 @@ table {
   text-align: center;
 }
 
-
 /* ------------------------------ */
 /* General Calcs on First Page -- */
 /* ------------------------------ */
@@ -98,6 +97,13 @@ table #miningTable {
   margin-bottom: 10px;
 }
 
+/* ------------------------------ */
+/* Output Box Formatting -------- */
+/* ------------------------------ */
+
+#output-hpmRSMining, #output-hpWSMining, #output-dayMining,   {
+  color: #ffffe0;
+}
 
 /* ------------------------------ */
 /* Map Overlays Formatting ------ */
@@ -193,7 +199,7 @@ a:active {
 .mininginfobox {
   padding: 6px 8px;
   font: 12px Arial, Helvetica, sans-serif;
-  color: white;
+  color: #ffffe0;
   background: rgba(25,25,25,0.8);
   box-shadow: 0 0 15px rgba(255,255,255,0.2);
   border-radius: 5px;
