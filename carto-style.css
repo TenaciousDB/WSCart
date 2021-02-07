@@ -88,6 +88,7 @@ table {
 }
 #miningCalcFooter input {
   width: 50px!important;
+  text-align: left;
 }
 #shieldCalcContainer, #miningCalcContainer {
   margin-bottom: 20px;
