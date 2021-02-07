@@ -52,10 +52,12 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 		<img id='logo' src="images/logos/teamlogo.png">
 		<p class='bannerHeading'>Madison Holding</p>
 	</div>
-	<div id='shieldCalcHeading'>
-		<hr id='hRuleNarrow'>
-		<p class='header'>White Start Cartography</p>
-		<hr id='hRuleNarrow'>
+	<div id='generalCalcs'>
+		<div id='shieldCalcHeading'>
+			<hr id='hRuleNarrow'>
+			<p class='header'>White Start Cartographer</p>
+			<hr id='hRuleNarrow'>
+		</div>
 	</div>
 	<div id='instructions'>
 		<p id='info'></p>
@@ -152,23 +154,23 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 			<div id='miningCalcFooter'>
 				<table>
 					<tr>
-						<td align=right colspan=2><u>Hydro per Min</u></td>
+						<td colspan=2><u>Hydro per Min Rates</u></td>
 						<td width=40px> </td>
-						<td align=right colspan=2><u>WS Time to Mine</u></td>
+						<td colspan=2><u>WS Mining Duration</u></td>
 					</tr>
 					<tr>
-						<td align=right>RS:</td>
 						<td><input type="text" id="output-hpmRSMining" maxlength="6" value=0 readonly></td>
+						<td>RS</td>
 						<td width=40px></td>
+						<td><input type="text" id="output-dayMining" maxlength="6" value=0 readonly></td>
 						<td>days</td>
-						<td><input type="text" id="output-hpWSMining" maxlength="6" value=0 readonly></td>
 					</tr>
 					<tr>
-						<td align=right>WS:</td>
-						<td><input type="text" id="output-dayMining" maxlength="2" value=0 readonly></td>
+						<td><input type="text" id="output-hpWSMining" maxlength="2" value=0 readonly></td>
+						<td>WS</td>
 						<td width=40px></td>
-						<td>hours</td>
 						<td><input type="text" id="output-hrMining" maxlength="2" value=0 readonly></td>
+						<td>hours</td>
 					</tr>
 				</table>
 			</div>
