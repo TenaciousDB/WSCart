@@ -207,10 +207,12 @@ a:active {
   background: rgba(25,25,25,0.8);
   box-shadow: 0 0 15px rgba(255,255,255,0.2);
   border-radius: 5px;
-  width: 400px;
-  height: 200px;
 }
 
+input[type="text"],
+textarea {
+    width:250px;
+	
 input:focus {
 	outline: #dc143c solid 2px;
 }
