@@ -212,7 +212,8 @@ a:active {
 input[type="text"],
 textarea {
     width:250px;
-	
+}
+
 input:focus {
 	outline: #dc143c solid 2px;
 }
