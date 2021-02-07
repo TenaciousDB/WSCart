@@ -105,7 +105,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 		<div id='miningCalcContainer'>
 			<div id='miningCalcHeading'>
 				<hr id='hRuleNarrow'>
-				<p class='header'>Mining Speed Calculator</p>
+				<p class='header'>Mining Rate and Duration Calculator</p>
 				<hr id='hRuleNarrow'>
 			</div>
 				<table>
@@ -138,24 +138,22 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 				Mining Unity: <input type="number" id="input-miningUnity" onkeyup="miningUnityUpdate()" onchange="miningUnityUpdate()" value=0 min="0" max="12" style="width: 2.75em;"/><br>-->
 			</div>
 			<div id='miningCalcFooter'>
-				<p class='header'>Mining Rates:</p>
 				<table>
 					<tr>
-						<p class='header'>Mining Rates:</p>
 						<td>YS/RS Mining Rate:</td>
 						<td><input type="text" id="output-hpmRSMining" maxlength="6" value=0 readonly></td>
 						<td>hydro / min</td>
 						<td><br></td>
-						<td>WS Mining Rate:</td>
-						<td><input type="text" id="output-hpWSMining" maxlength="6" value=0 readonly></td>
-						<td>hydro / hour</td>
-					</tr>
-					<tr>
 						<td>WS Mining Time:</td>
 						<td><input type="text" id="output-dayMining" maxlength="2" value=0 readonly></td>
 						<td>days</td>
 						<td><input type="text" id="output-hrMining" maxlength="2" value=0 readonly></td>
 						<td>hours</td>
+					</tr>
+					<tr>
+						<td>WS Mining Rate:</td>
+						<td><input type="text" id="output-hpWSMining" maxlength="6" value=0 readonly></td>
+						<td>hydro / hour</td>
 					</tr>
 				</table>
 			</div>
