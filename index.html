@@ -508,7 +508,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 				miningRShpm += twMultiplier[twlvlMining] *                                        //TW multiplier
 				minerLevelhpm[hMiningLevel[i]] *                                  //Miner Level
 				miningBoostMultiplier[hMiningBoost[i]] *                          //Mining Boost multiplier
-				(remoteMiningMultipler[hMiningRemote[i]] * hMiningCount) *        //Remote Mining multiplier * asteroid count
+<!--				(remoteMiningMultipler[hMiningRemote[i]] * hMiningCount) *        //Remote Mining multiplier * asteroid count -->
+				(remoteMiningMultipler[hMiningRemote[i]] * hMiningCount * );       //Remote Mining multiplier * asteroid count
 				(miningUnityMultiplier[hMiningUnity[i]] * hMiningAllies + 1);     //Mining Unity multiplier * # of miningAllies
 			}
 
