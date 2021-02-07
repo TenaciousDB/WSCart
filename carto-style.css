@@ -121,6 +121,7 @@ table #miningTable {
 
 p.header {
   font-weight: bold;
+  text-align: center;
 }
 p.center {
   text-align: center;
