@@ -102,7 +102,7 @@ table #miningTable {
 /* ------------------------------ */
 
 #output-hpmRSMining, #output-hpWSMining, #output-dayMining, #output-hrMining {
-  color: #ffffe0;
+  background: #ffffe0;
 }
 
 /* ------------------------------ */
