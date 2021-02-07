@@ -207,6 +207,6 @@ a:active {
   border-radius: 5px;
 }
 
-.mininginfobox:focus {
-    outline: #dc143c solid 2px;
+input:focus {
+	outline: #dc143c solid 2px;
 }
