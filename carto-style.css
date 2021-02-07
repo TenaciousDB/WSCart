@@ -186,7 +186,7 @@ a:active {
 }
 
 .infobox {
-  padding: 6px 8px;
+  padding: 6px 10px;
   font: 12px Arial, Helvetica, sans-serif;
   background: #ffff66;
   background: rgba(255,255,102,0.8);
@@ -199,7 +199,7 @@ a:active {
 }
 
 .mininginfobox {
-  padding: 6px 8px;
+  padding: 6px 10px;
   font: 12px Arial, Helvetica, sans-serif;
   color: #ffff66;
   background: rgba(25,25,25,0.8);
